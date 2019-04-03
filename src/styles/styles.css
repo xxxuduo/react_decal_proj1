@@ -1,16 +1,28 @@
 .App {
-    font-family: sans-serif;
-    text-align: center;
-    padding: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
 }
 
 .page-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .ui.cards > .card {
-    width: 200px;
+  width: 200px;
 }
-  
+
+.numbers h3 {
+  display: inline-block;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+  margin-inline-end: 5px;
+  font-weight: bold;
+}
+
+.numbers .subtext {
+  display: inline-block;
+  padding-right: 15px;
+}
