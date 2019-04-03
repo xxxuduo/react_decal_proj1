@@ -2,32 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./styles/cart.css";
 import "./Data.js";
-// const Product = props => {
-//   //render verified icon
-//   function renderName() {
-//     return <h1>{props.productName}</h1>;
-//   }
-
-//   //Header should contain avatar, name, username, and verified.
-//   function renderLimit() {
-//     return (
-//       <div className="numbers">
-//         {props.price}
-//         {props.cost}
-//       </div>
-//     );
-//   }
-
-//   // ----- DON'T MODIFY BELOW -----
-//   return (
-//     <div className="App">
-//       <div className="top">{renderName()}</div>
-//       {renderLimit()}
-//     </div>
-//   );
-// };
-
-// export default Product;
 
 class Product extends React.Component {
   addToCart() {
